@@ -1,0 +1,17 @@
+.container {
+    text-align: left;
+    align-items: flex-start;
+    padding: 0;
+    color: white;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin: .3125rem 0;
+    color: #2e211b;
+  }
+
+  h2 {
+    margin: .625rem 0;
+    color: #9d5523;
+  }

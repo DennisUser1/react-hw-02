@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+    padding: .625rem;
+    font-size: 1.2rem;
+}
+
+.message {
+    color: #492002;
+}
