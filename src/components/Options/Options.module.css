@@ -3,24 +3,5 @@
     justify-content: center;
     gap: .625rem;
     margin: 1.25rem 0;
-  }
+}
   
-  button {
-    padding: .625rem 1.25rem;
-    margin: 0;
-    background-color: #9d5523;
-    color: white;
-    border: none;
-    border-radius: .3125rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #d98040;
-  }
-  
-  button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }

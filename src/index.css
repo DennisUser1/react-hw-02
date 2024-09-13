@@ -28,24 +28,33 @@ h1 {
   line-height: 1.1;
 }
 
- h2 {
+h2 {
     font-size: 2rem;
 }
 
 button {
-  border-radius: .5rem;
-  border: 1px solid transparent;
-  padding: .75rem 1.25rem; 
-  font-size: 1rem;
-  font-weight: 500;
+  padding: .625rem 1.25rem; 
+  font-size: .875rem;
+  font-weight: 500; 
   font-family: inherit;
+  margin: 0;
   background-color: #9d5523;
+  color: white;
+  border: .0625rem solid transparent; 
+  border-radius: .3125rem; 
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 button:hover {
   border-color: #d98040;
+  background-color: #d98040;
+}
+
+button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
 }
 
 @media (max-width: 37.5rem) {
@@ -54,7 +63,7 @@ button:hover {
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   p {
@@ -62,8 +71,7 @@ button:hover {
   }
 
   button {
-    padding: .5rem 1rem;
-    font-size: .875rem;
+    font-size: .75rem;
   }
 }
 

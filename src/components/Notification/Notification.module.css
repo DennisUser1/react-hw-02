@@ -2,8 +2,27 @@
     text-align: center;
     padding: .625rem;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    white-space: nowrap;
+}
+
+svg {
+    margin-right: .375rem;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .message {
     color: #492002;
+}
+
+
+@media (min-width: 37.5rem) { 
+    svg {
+        margin-right: .625rem;
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
 }
