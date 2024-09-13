@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 button {
@@ -36,7 +36,6 @@ button {
   font-size: .875rem;
   font-weight: 500; 
   font-family: inherit;
-  margin: 0;
   background-color: #9d5523;
   color: white;
   border: .0625rem solid transparent; 
@@ -54,12 +53,6 @@ button:disabled {
   background-color: #ccc;
   border-color: #ccc;
   cursor: not-allowed;
-}
-
-button:focus {
-  outline: none; 
-  background-color: #9d5523; 
-  border-color: transparent; 
 }
 
 @media (max-width: 37.5rem) {
@@ -96,5 +89,12 @@ button:focus {
   button {
     padding: .375rem .75rem;
     font-size: .75rem;
+  }
+}
+
+@media (hover: none) {
+  button:hover {
+    background-color: #9d5523; 
+    border-color: transparent;
   }
 }
