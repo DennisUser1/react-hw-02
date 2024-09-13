@@ -15,7 +15,7 @@ body {
 }
 
 .background {
-  background-image: url("../assets/Coffee.png");
+  background-image: url("../assets/Coffee-Mobile@1x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,16 +29,47 @@ body {
   flex-direction: column;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .background  {
+    background-image: url("../assets/Coffee-Mobile@2x.png");
+  }
+}
+
+@media (min-width: 37.5rem) and (max-width: 75rem) {
+  .background {
+    background-image: url("../assets/Coffee-Tablet@1x.png");
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .background  {
+    background-image: url("../assets/Coffee-Tablet@2x.png");
+  }
+}
+
+@media screen and (min-width: 75rem) { 
+  .background {
+    background-image: url("../assets/Coffee-Desktop@1x.png");
+  }
+}
+
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .background  {
+    background-image: url("../assets/Coffee-Desktop@2x.png");
+  }
+}
+
 .box-blur {
   display: flex;
   flex-direction: column;
   align-items: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1.25rem);
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+  border-radius: .625rem;
   margin: 0 .625rem;
   padding: .625rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
