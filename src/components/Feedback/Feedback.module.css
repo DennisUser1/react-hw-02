@@ -14,3 +14,8 @@ h2 {
     margin: .5rem 0;
     color: #9d5523;
 }
+
+.value {
+    font-weight: 600;
+    color: #492002;
+}

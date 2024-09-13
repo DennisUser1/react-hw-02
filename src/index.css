@@ -98,3 +98,10 @@ button:disabled {
     border-color: transparent;
   }
 }
+
+@media (max-width: 75rem) {
+  button:active {
+    background-color: #d98040;
+  }
+}
+
