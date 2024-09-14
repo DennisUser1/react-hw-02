@@ -41,7 +41,7 @@ button {
   border: .0625rem solid transparent; 
   border-radius: .3125rem; 
   cursor: pointer;
-  transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.7s, border-color 0.7s;
 }
 
 button:hover {
@@ -102,6 +102,11 @@ button:disabled {
 @media (max-width: 75rem) {
   button:active {
     background-color: #d98040;
+    border-color: #d98040;
+  }
+
+  button {
+    touch-action: manipulation;
   }
 }
 
