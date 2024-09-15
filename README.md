@@ -2,8 +2,8 @@
 
 ## Multi-Platform Deployment (GitHub Pages, Vercel, Netlify, Surge)
 
-**Vercel:** [https://react-hw-02-delta.vercel.app/](https://react-hw-02-delta.vercel.app/) 
-**Netlify:** [https://beamish-strudel-99565d.netlify.app/](https://beamish-strudel-99565d.netlify.app/) 
+**Vercel:** [https://react-hw-02-delta.vercel.app/](https://react-hw-02-delta.vercel.app/)   
+**Netlify:** [https://beamish-strudel-99565d.netlify.app/](https://beamish-strudel-99565d.netlify.app/)  
 
 ## Файли і папки
 

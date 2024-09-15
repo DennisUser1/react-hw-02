@@ -16,7 +16,7 @@ body {
 }
 
 .background {
-  background-image: url("../assets/Coffee-Mobile@1x.png");
+  background-image: url("./assets/Coffee-Mobile@1x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,31 +32,31 @@ body {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background  {
-    background-image: url("../assets/Coffee-Mobile@2x.png");
+    background-image: url("./assets/Coffee-Mobile@2x.png");
   }
 }
 
 @media (min-width: 37.5rem) and (max-width: 75rem) {
   .background {
-    background-image: url("../assets/Coffee-Tablet@1x.png");
+    background-image: url("./assets/Coffee-Tablet@1x.png");
   }
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background  {
-    background-image: url("../assets/Coffee-Tablet@2x.png");
+    background-image: url("./assets/Coffee-Tablet@2x.png");
   }
 }
 
 @media screen and (min-width: 75rem) { 
   .background {
-    background-image: url("../assets/Coffee-Desktop@1x.png");
+    background-image: url("./assets/Coffee-Desktop@1x.png");
   }
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background  {
-    background-image: url("../assets/Coffee-Desktop@2x.png");
+    background-image: url("./assets/Coffee-Desktop@2x.png");
   }
 }
 
